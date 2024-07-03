@@ -11,7 +11,7 @@ spec:
   lifecycle: experimental
   owner: "group:default/guests"
   providesApis: 
-    - product-api 
+    - "api:default/product-api" 
   consumesApis: []
 ---
 apiVersion: backstage.io/v1alpha1

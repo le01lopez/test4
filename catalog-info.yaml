@@ -24,7 +24,7 @@ spec:
   type: openapi
   lifecycle: experimental
   definition:
-	$text: |
+  $text: |
     openapi: 3.0.0
     info:
       title: ProjectName API

@@ -20,12 +20,9 @@ jobs:
       # You can test your matrix by printing the current dotnet version
       - name: Display dotnet version
         run: dotnet --version
-
       - name: Restore dependencies
-    	  run: dotnet restore src
-
+        run: dotnet restore src
       - name: Build
-    	  run: dotnet build src --no-restore --configuration Release
-
-  	  - name: Test
-    	  run: dotnet test tests --no-build --verbosity normal --configuration Release
+        run: dotnet build src --no-restore --configuration Release
+      - name: Test
+        run: dotnet test tests --no-build --verbosity normal --configuration Release

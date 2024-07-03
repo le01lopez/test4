@@ -13,9 +13,7 @@ spec:
   providesApis: 
     - product-api 
   consumesApis: []
-
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:

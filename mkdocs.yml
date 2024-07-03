@@ -1,0 +1,8 @@
+site_name: "test4"
+site_description: "test4"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

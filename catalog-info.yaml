@@ -6,6 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
+  owner: "group:default/guests"
   definition:
     $text: |
       openapi: 3.0.0

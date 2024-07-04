@@ -1,20 +1,4 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: "test4"
-  description: "test4"
-  annotations:
-    github.com/project-slug: le01lopez/test4
-    backstage.io/techdocs-ref: dir:.
-spec:
-  type: service
-  lifecycle: experimental
-  owner: "group:default/guests"
-  providesApis: 
-    - "api:default/product-api" 
-  consumesApis: []
----
-apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: product-api
@@ -153,3 +137,19 @@ spec:
                 type: string
               description:
                 type: string
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test4"
+  description: "test4"
+  annotations:
+    github.com/project-slug: le01lopez/test4
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/guests"
+  providesApis: 
+    - "api:default/product-api" 
+  consumesApis: []

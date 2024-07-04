@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test4
+  namespace: default
   description: "test4"
   annotations:
     github.com/project-slug: le01lopez/test4
@@ -11,4 +12,4 @@ spec:
   lifecycle: production
   owner: "group:default/guests"
   providesApis: 
-    - products-api
+    - default/products-api

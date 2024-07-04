@@ -3,9 +3,10 @@ kind: API
 metadata:
   name: products-api
   description: API para la gestión de productos
+  namespace: default
 spec:
   type: openapi
-  lifecycle: production
+  lifecycle: experimental
   owner: "group:default/guests"
   definition:
     $text: |

@@ -151,5 +151,5 @@ spec:
   lifecycle: experimental
   owner: "group:default/guests"
   providesApis: 
-    - "api:default/product-api" 
+    - product-api
   consumesApis: []

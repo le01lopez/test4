@@ -11,5 +11,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: "group:default/guests"
-  # providesApis: 
-  #   - products-api
+  providesApis: 
+    - products-api

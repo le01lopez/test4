@@ -4,10 +4,10 @@ metadata:
   name: products-api
   description: API para la gestión de productos
   namespace: default
-  owner: "group:default/guests"
 spec:
   type: openapi
   lifecycle: experimental
+  owner: "group:default/guests"
   definition:
     $text: |
       openapi: 3.0.0

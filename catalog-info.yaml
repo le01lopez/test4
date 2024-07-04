@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: product-api
+  name: test4
   description: API para la gestión de productos
   owner: "group:default/guests"
 spec:
@@ -141,7 +141,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "test4"
+  name: test4
   description: "test4"
   annotations:
     github.com/project-slug: le01lopez/test4
@@ -151,5 +151,5 @@ spec:
   lifecycle: experimental
   owner: "group:default/guests"
   providesApis: 
-    - product-api
+    - test4
   consumesApis: []

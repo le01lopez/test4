@@ -24,7 +24,6 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: "group:default/guests"
-  apiProvidedBy: component:test4 # Way to link back to component, currently using apiProvidedBy does not work
+  apiProvidedBy: component:test4
   definition:
-    $text: |
-      openapi: 3.0.0
+    $text: ./products.oas.yaml

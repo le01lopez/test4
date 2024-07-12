@@ -7,7 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: le01lopez/test4
     backstage.io/techdocs-ref: dir:.
-    sonarqube.org/project-key: SonarTest
+    sonarqube.org/project-key: http://localhost:9000/SonarTest
 spec:
   type: service
   lifecycle: experimental
